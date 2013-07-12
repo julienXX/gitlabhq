@@ -213,7 +213,8 @@ Devise.setup do |config|
       port:     Gitlab.config.ldap['port'],
       method:   Gitlab.config.ldap['method'],
       bind_dn:  Gitlab.config.ldap['bind_dn'],
-      password: Gitlab.config.ldap['password']
+      password: Gitlab.config.ldap['password'],
+      filter:   Gitlab.config.ldap['filter']
   end
 
   Gitlab.config.omniauth.providers.each do |provider|
