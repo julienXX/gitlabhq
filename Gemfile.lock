@@ -22,6 +22,15 @@ GIT
       faye-websocket (~> 0.4, >= 0.4.4)
       http_parser.rb (~> 0.5.3)
 
+PATH
+  remote: /home/git/omniauth-ldap
+  specs:
+    gitlab_omniauth-ldap (1.0.2)
+      net-ldap (~> 0.2.2)
+      omniauth (~> 1.0)
+      pyu-ruby-sasl (~> 0.0.3.1)
+      rubyntlm (~> 0.1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -173,11 +182,6 @@ GEM
       github-linguist (~> 2.3.4)
       gitlab-grit (~> 2.5.1)
     gitlab_meta (5.0)
-    gitlab_omniauth-ldap (1.0.2)
-      net-ldap (~> 0.2.2)
-      omniauth (~> 1.0)
-      pyu-ruby-sasl (~> 0.0.3.1)
-      rubyntlm (~> 0.1.1)
     gon (4.1.0)
       actionpack (>= 2.3.0)
       json
